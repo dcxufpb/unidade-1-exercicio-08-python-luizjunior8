@@ -70,8 +70,6 @@ def dados_loja_objeto(loja):
     if loja.observacao:
         _observacao = loja.observacao
 
-
-
     typewriter = loja.nome_loja + "\n"
     typewriter += loja.logradouro + ", " + _numero + _complemento + "\n"
     typewriter += _bairro + loja.municipio + " - " + loja.estado + "\n"
